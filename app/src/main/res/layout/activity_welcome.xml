@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="LGM"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="Face Detector"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="398dp"
+        android:layout_height="399dp"
+        android:background="@color/black"
+        android:src="@drawable/fd"
+        tools:ignore="MissingClass" />
+    <Button
+        android:id="@+id/btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera to DETECT the face"
+        android:textColor="@color/white" />
+
+
+
+</LinearLayout>
